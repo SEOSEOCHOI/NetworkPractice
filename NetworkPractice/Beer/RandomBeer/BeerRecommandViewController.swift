@@ -54,7 +54,7 @@ extension BeerRecommandViewController {
 extension BeerRecommandViewController {
     func callManager() {
         manager.callRequest { value in
-            let url = URL(string: value[0].imageURL)
+            let url = URL(string: value[0].imageURL ?? "")
             self.beerImageView.kf.setImage(with: url)
             
             self.beerNameLabel.text = value[0].name

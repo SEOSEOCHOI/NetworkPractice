@@ -30,6 +30,8 @@ class LotteryViewController: UIViewController {
 extension LotteryViewController {
     
     func configureView() {
+        
+        tabBarItem.title = "Lottery"
         bonusNumber.text = "보너스 번호"
         TitleLabel.text = "로또 당첨 번호"
         

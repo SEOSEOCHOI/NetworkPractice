@@ -11,7 +11,7 @@
         <!--Lottery View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController id="Y6W-OH-hqX" customClass="LotteryViewController" customModule="NetworkPractice" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LotteryViewController" id="Y6W-OH-hqX" customClass="LotteryViewController" customModule="NetworkPractice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -56,9 +56,15 @@
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Jhm-EH-PZ4">
                                                 <rect key="frame" x="193.66666666666666" y="0.0" width="50" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="Jhm-EH-PZ4" secondAttribute="height" multiplier="1:1" id="ScZ-so-Hlo"/>
+                                                </constraints>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="n3K-Qd-l2i">
                                                 <rect key="frame" x="258.33333333333331" y="0.0" width="50" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="n3K-Qd-l2i" secondAttribute="height" multiplier="1:1" id="nOb-ZN-BQo"/>
+                                                </constraints>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CZw-Hg-jVL">
                                                 <rect key="frame" x="323" y="0.0" width="50" height="50"/>
@@ -67,10 +73,6 @@
                                                 </constraints>
                                             </imageView>
                                         </subviews>
-                                        <constraints>
-                                            <constraint firstItem="Jhm-EH-PZ4" firstAttribute="width" secondItem="Jhm-EH-PZ4" secondAttribute="height" multiplier="1:1" id="ScZ-so-Hlo"/>
-                                            <constraint firstItem="n3K-Qd-l2i" firstAttribute="width" secondItem="n3K-Qd-l2i" secondAttribute="height" multiplier="1:1" id="nOb-ZN-BQo"/>
-                                        </constraints>
                                     </stackView>
                                 </subviews>
                             </stackView>

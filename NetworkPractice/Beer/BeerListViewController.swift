@@ -11,7 +11,7 @@ import Kingfisher
 class BeerListViewController: UIViewController {
     
     let manager = BeerListAPIManager()
-    var list: Beer = []
+    var list: Beer = Beer()
     var count = 2
     
     
@@ -23,44 +23,43 @@ class BeerListViewController: UIViewController {
         beerTableView.dataSource = self
         beerTableView.delegate = self
         
-        
+        manager.callRequest { value in
+            //self.list = value[indexPath.row]
+            
+            self.list = value
+            self.beerTableView.reloadData()
+            
+        }
         
     }
-    
-    
     
 }
 
 extension BeerListViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        manager.callRequest { value in
-            print(value.count)
-            self.count = value.count
-            self.beerTableView.reloadData()
-
-        }
+        //        manager.callRequest { value in
+        //            print(value.count)
+        //            self.count = value.count
+        //            self.beerTableView.reloadData()
+        //            print(self.count)
+        //
+        //        }
         
-        return count
+        return list.count
         
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "BeerListTableViewCell", for: indexPath) as! BeerListTableViewCell
+    
         
-                manager.callRequest { value in
-                    //self.list = value[indexPath.row]
-        
-                    //print(value.count)
-        
-                    let url = URL(string: value[indexPath.row].imageURL)
-                    cell.beerImageView.kf.setImage(with: url)
+        let url = URL(string: list[indexPath.row].imageURL ?? "")
+        cell.beerImageView.kf.setImage(with: url)
         
         
-                    cell.beerNameLabel.text = value[indexPath.row].name
-                    cell.beerDescpriptionLabel.text = value[indexPath.row].description
-                    self.beerTableView.reloadData()
-          }
+        cell.beerNameLabel.text = list[indexPath.row].name
+        cell.beerDescpriptionLabel.text = list[indexPath.row].description
         
         
         return cell

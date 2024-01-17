@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		2B2D14EC2B56F7AC00949206 /* BeerListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2D14EB2B56F7AC00949206 /* BeerListTableViewCell.swift */; };
+		2B2D14FA2B579B3200949206 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2B2D14F92B579B3200949206 /* .gitignore */; };
+		2B2D14FC2B579B5A00949206 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2D14FB2B579B5A00949206 /* APIKey.swift */; };
+		2B2D15002B57A3A000949206 /* Book.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B2D14FF2B57A3A000949206 /* Book.storyboard */; };
+		2B2D15022B57A41F00949206 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2D15012B57A41F00949206 /* BookViewController.swift */; };
+		2B2D150B2B57A64800949206 /* BookAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2D150A2B57A64800949206 /* BookAPIManager.swift */; };
+		2B2D150D2B57A65400949206 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2D150C2B57A65400949206 /* Book.swift */; };
+		2B2D15102B57AB7700949206 /* BookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2D150E2B57AB7700949206 /* BookCollectionViewCell.swift */; };
+		2B2D15112B57AB7700949206 /* BookCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B2D150F2B57AB7700949206 /* BookCollectionViewCell.xib */; };
 		2B5FE6FB2B56680E004FBD1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5FE6FA2B56680E004FBD1B /* AppDelegate.swift */; };
 		2B5FE6FD2B56680E004FBD1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5FE6FC2B56680E004FBD1B /* SceneDelegate.swift */; };
 		2B5FE6FF2B56680E004FBD1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5FE6FE2B56680E004FBD1B /* ViewController.swift */; };
@@ -27,10 +35,25 @@
 		2B5FE7282B56EBFC004FBD1B /* Label + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5FE7272B56EBFC004FBD1B /* Label + Extension.swift */; };
 		2B5FE72B2B56EE49004FBD1B /* BeerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5FE72A2B56EE49004FBD1B /* BeerListViewController.swift */; };
 		2B5FE72D2B56F060004FBD1B /* BeerListAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5FE72C2B56F060004FBD1B /* BeerListAPIManager.swift */; };
+		2BE92CA02B57C604003D9000 /* Papago.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BE92C9F2B57C604003D9000 /* Papago.storyboard */; };
+		2BE92CA22B57C661003D9000 /* PapagoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE92CA12B57C661003D9000 /* PapagoViewController.swift */; };
+		2BE92CA42B57C66E003D9000 /* Papago.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE92CA32B57C66E003D9000 /* Papago.swift */; };
+		2BE92CA62B57C67F003D9000 /* PapagoAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE92CA52B57C67F003D9000 /* PapagoAPIManager.swift */; };
+		2BE92CAA2B57F960003D9000 /* langaugeTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE92CA92B57F960003D9000 /* langaugeTypeViewController.swift */; };
+		2BE92CAD2B57FA46003D9000 /* languageTypeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE92CAB2B57FA46003D9000 /* languageTypeTableViewCell.swift */; };
+		2BE92CAE2B57FA46003D9000 /* languageTypeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BE92CAC2B57FA46003D9000 /* languageTypeTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2B2D14EB2B56F7AC00949206 /* BeerListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerListTableViewCell.swift; sourceTree = "<group>"; };
+		2B2D14F92B579B3200949206 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		2B2D14FB2B579B5A00949206 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		2B2D14FF2B57A3A000949206 /* Book.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Book.storyboard; sourceTree = "<group>"; };
+		2B2D15012B57A41F00949206 /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
+		2B2D150A2B57A64800949206 /* BookAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookAPIManager.swift; sourceTree = "<group>"; };
+		2B2D150C2B57A65400949206 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		2B2D150E2B57AB7700949206 /* BookCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectionViewCell.swift; sourceTree = "<group>"; };
+		2B2D150F2B57AB7700949206 /* BookCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookCollectionViewCell.xib; sourceTree = "<group>"; };
 		2B5FE6F72B56680E004FBD1B /* NetworkPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B5FE6FA2B56680E004FBD1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B5FE6FC2B56680E004FBD1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +73,13 @@
 		2B5FE7272B56EBFC004FBD1B /* Label + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Label + Extension.swift"; sourceTree = "<group>"; };
 		2B5FE72A2B56EE49004FBD1B /* BeerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerListViewController.swift; sourceTree = "<group>"; };
 		2B5FE72C2B56F060004FBD1B /* BeerListAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerListAPIManager.swift; sourceTree = "<group>"; };
+		2BE92C9F2B57C604003D9000 /* Papago.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Papago.storyboard; sourceTree = "<group>"; };
+		2BE92CA12B57C661003D9000 /* PapagoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PapagoViewController.swift; sourceTree = "<group>"; };
+		2BE92CA32B57C66E003D9000 /* Papago.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Papago.swift; sourceTree = "<group>"; };
+		2BE92CA52B57C67F003D9000 /* PapagoAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PapagoAPIManager.swift; sourceTree = "<group>"; };
+		2BE92CA92B57F960003D9000 /* langaugeTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = langaugeTypeViewController.swift; sourceTree = "<group>"; };
+		2BE92CAB2B57FA46003D9000 /* languageTypeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = languageTypeTableViewCell.swift; sourceTree = "<group>"; };
+		2BE92CAC2B57FA46003D9000 /* languageTypeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = languageTypeTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +95,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B2D14FE2B57A37800949206 /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				2B2D14FF2B57A3A000949206 /* Book.storyboard */,
+				2B2D15012B57A41F00949206 /* BookViewController.swift */,
+			);
+			path = Book;
+			sourceTree = "<group>";
+		};
+		2B2D15072B57A5A500949206 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2B2D14EB2B56F7AC00949206 /* BeerListTableViewCell.swift */,
+				2B2D150E2B57AB7700949206 /* BookCollectionViewCell.swift */,
+				2B2D150F2B57AB7700949206 /* BookCollectionViewCell.xib */,
+				2BE92CAB2B57FA46003D9000 /* languageTypeTableViewCell.swift */,
+				2BE92CAC2B57FA46003D9000 /* languageTypeTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		2B2D15082B57A5C500949206 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2B5FE71B2B56C188004FBD1B /* Beer.swift */,
+				2B5FE7182B567103004FBD1B /* Lottery.swift */,
+				2B2D150C2B57A65400949206 /* Book.swift */,
+				2BE92CA32B57C66E003D9000 /* Papago.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2B2D15092B57A5E500949206 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				2B5FE7132B566FD9004FBD1B /* LottoAPIManager.swift */,
+				2B5FE71D2B56C193004FBD1B /* BeerAPIManager.swift */,
+				2B5FE72C2B56F060004FBD1B /* BeerListAPIManager.swift */,
+				2B2D150A2B57A64800949206 /* BookAPIManager.swift */,
+				2BE92CA52B57C67F003D9000 /* PapagoAPIManager.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
 		2B5FE6EE2B56680E004FBD1B = {
 			isa = PBXGroup;
 			children = (
+				2B2D14F92B579B3200949206 /* .gitignore */,
 				2B5FE6F92B56680E004FBD1B /* NetworkPractice */,
 				2B5FE6F82B56680E004FBD1B /* Products */,
 			);
@@ -84,9 +159,14 @@
 		2B5FE6F92B56680E004FBD1B /* NetworkPractice */ = {
 			isa = PBXGroup;
 			children = (
+				2B2D15092B57A5E500949206 /* APIManager */,
+				2B2D15082B57A5C500949206 /* Model */,
+				2B2D15072B57A5A500949206 /* Cell */,
 				2B5FE7262B56EBE7004FBD1B /* Extension */,
 				2B5FE71A2B56C179004FBD1B /* Beer */,
 				2B5FE70E2B56682B004FBD1B /* Lottery */,
+				2B2D14FE2B57A37800949206 /* Book */,
+				2BE92C9E2B57C5F3003D9000 /* Papago */,
 				2B5FE6FA2B56680E004FBD1B /* AppDelegate.swift */,
 				2B5FE6FC2B56680E004FBD1B /* SceneDelegate.swift */,
 				2B5FE6FE2B56680E004FBD1B /* ViewController.swift */,
@@ -94,6 +174,7 @@
 				2B5FE7032B566810004FBD1B /* Assets.xcassets */,
 				2B5FE7052B566810004FBD1B /* LaunchScreen.storyboard */,
 				2B5FE7082B566810004FBD1B /* Info.plist */,
+				2B2D14FB2B579B5A00949206 /* APIKey.swift */,
 			);
 			path = NetworkPractice;
 			sourceTree = "<group>";
@@ -101,9 +182,7 @@
 		2B5FE70E2B56682B004FBD1B /* Lottery */ = {
 			isa = PBXGroup;
 			children = (
-				2B5FE7132B566FD9004FBD1B /* LottoAPIManager.swift */,
 				2B5FE7112B56684D004FBD1B /* Lottery.storyboard */,
-				2B5FE7182B567103004FBD1B /* Lottery.swift */,
 				2B5FE70F2B566841004FBD1B /* LotteryViewController.swift */,
 			);
 			path = Lottery;
@@ -112,11 +191,9 @@
 		2B5FE71A2B56C179004FBD1B /* Beer */ = {
 			isa = PBXGroup;
 			children = (
-				2B5FE71B2B56C188004FBD1B /* Beer.swift */,
+				2B5FE7212B56C1BA004FBD1B /* BeerRecommand.storyboard */,
 				2B5FE7292B56EE00004FBD1B /* RandomBeer */,
 				2B5FE72A2B56EE49004FBD1B /* BeerListViewController.swift */,
-				2B5FE72C2B56F060004FBD1B /* BeerListAPIManager.swift */,
-				2B2D14EB2B56F7AC00949206 /* BeerListTableViewCell.swift */,
 			);
 			path = Beer;
 			sourceTree = "<group>";
@@ -132,11 +209,19 @@
 		2B5FE7292B56EE00004FBD1B /* RandomBeer */ = {
 			isa = PBXGroup;
 			children = (
-				2B5FE71D2B56C193004FBD1B /* BeerAPIManager.swift */,
-				2B5FE7212B56C1BA004FBD1B /* BeerRecommand.storyboard */,
 				2B5FE71F2B56C1B1004FBD1B /* BeerRecommandViewController.swift */,
 			);
 			path = RandomBeer;
+			sourceTree = "<group>";
+		};
+		2BE92C9E2B57C5F3003D9000 /* Papago */ = {
+			isa = PBXGroup;
+			children = (
+				2BE92C9F2B57C604003D9000 /* Papago.storyboard */,
+				2BE92CA12B57C661003D9000 /* PapagoViewController.swift */,
+				2BE92CA92B57F960003D9000 /* langaugeTypeViewController.swift */,
+			);
+			path = Papago;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,7 +293,12 @@
 				2B5FE7222B56C1BA004FBD1B /* BeerRecommand.storyboard in Resources */,
 				2B5FE7122B56684D004FBD1B /* Lottery.storyboard in Resources */,
 				2B5FE7072B566810004FBD1B /* LaunchScreen.storyboard in Resources */,
+				2B2D15002B57A3A000949206 /* Book.storyboard in Resources */,
 				2B5FE7042B566810004FBD1B /* Assets.xcassets in Resources */,
+				2BE92CAE2B57FA46003D9000 /* languageTypeTableViewCell.xib in Resources */,
+				2BE92CA02B57C604003D9000 /* Papago.storyboard in Resources */,
+				2B2D15112B57AB7700949206 /* BookCollectionViewCell.xib in Resources */,
+				2B2D14FA2B579B3200949206 /* .gitignore in Resources */,
 				2B5FE7022B56680E004FBD1B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,14 +313,24 @@
 				2B5FE7102B566841004FBD1B /* LotteryViewController.swift in Sources */,
 				2B5FE7192B567103004FBD1B /* Lottery.swift in Sources */,
 				2B5FE7282B56EBFC004FBD1B /* Label + Extension.swift in Sources */,
+				2B2D15102B57AB7700949206 /* BookCollectionViewCell.swift in Sources */,
+				2B2D150B2B57A64800949206 /* BookAPIManager.swift in Sources */,
 				2B5FE71E2B56C193004FBD1B /* BeerAPIManager.swift in Sources */,
 				2B5FE7142B566FD9004FBD1B /* LottoAPIManager.swift in Sources */,
+				2BE92CAD2B57FA46003D9000 /* languageTypeTableViewCell.swift in Sources */,
 				2B5FE6FF2B56680E004FBD1B /* ViewController.swift in Sources */,
 				2B5FE6FB2B56680E004FBD1B /* AppDelegate.swift in Sources */,
 				2B5FE71C2B56C188004FBD1B /* Beer.swift in Sources */,
+				2B2D14FC2B579B5A00949206 /* APIKey.swift in Sources */,
+				2BE92CA22B57C661003D9000 /* PapagoViewController.swift in Sources */,
 				2B2D14EC2B56F7AC00949206 /* BeerListTableViewCell.swift in Sources */,
+				2BE92CAA2B57F960003D9000 /* langaugeTypeViewController.swift in Sources */,
+				2BE92CA62B57C67F003D9000 /* PapagoAPIManager.swift in Sources */,
 				2B5FE6FD2B56680E004FBD1B /* SceneDelegate.swift in Sources */,
 				2B5FE72B2B56EE49004FBD1B /* BeerListViewController.swift in Sources */,
+				2BE92CA42B57C66E003D9000 /* Papago.swift in Sources */,
+				2B2D150D2B57A65400949206 /* Book.swift in Sources */,
+				2B2D15022B57A41F00949206 /* BookViewController.swift in Sources */,
 				2B5FE7202B56C1B1004FBD1B /* BeerRecommandViewController.swift in Sources */,
 				2B5FE72D2B56F060004FBD1B /* BeerListAPIManager.swift in Sources */,
 			);
